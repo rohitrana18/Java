@@ -29,6 +29,46 @@ class Datatype{
 
 
         Boolean bool = true; 
+
+
+
+        // Literals in java 
+
+        int num1 = 0b111;     // Binaray number
+
+        int num2 = 0x7E;      // Hexadecimal number
+        
+        System.out.println(num2);
+        System.out.println(num1);
+
+
+        char g = '3';
+        System.out.println(g);
     }
 }
 
+
+
+
+// ************************** Type Conversion and Type Casting *******************************
+
+// When we do explicit Conversion it is called Casting
+
+class data{
+    public static void main(String a[]){
+        byte by = 127;
+        int in = 258;
+        byte  k = (byte) in;
+
+        float fl = 38.93f;
+        int n = (int) fl;
+
+
+        // Type promotion 
+        
+        byte b1 = 10;
+        byte b2 = 20;
+        int result = 10*20; // Here byte is promoted into integer because the result will be out of range of byte
+        System.out.println(result);
+    }
+}
