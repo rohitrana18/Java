@@ -24,7 +24,7 @@ class operators{
 
 
 
-        // Relational Operators
+        // // Relational Operators
         
         int n1 = 37;
         int n2 = 83;
@@ -50,8 +50,30 @@ class operators{
 
         // Logical operators
        
+        int x=29;
+        int y=93;
+        int c=03;
+        int b = 73;
+
+        boolean result = c>b && x<y ;
+        boolean result1 = c>b || x<y ;
+
+        System.out.println(!result);
+        System.out.println(result1);
 
 
+
+        // Ternary operator
+
+        // ?: this is the representation of ternary operator . We use ternary operator in place of if else statement because it save time and memory 
+           
+
+           int n = -1;
+        int result = 0;
+
+        result = n%2==0 ? 10 : 20 ;
+
+        System.out.println(result);
 
 
 
